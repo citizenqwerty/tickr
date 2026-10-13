@@ -10,7 +10,7 @@
   █████╔╝ ███████║██║  ██║█████╗
   ██╔═██╗ ██╔══██║██║  ██║██╔══╝
   ██║  ██╗██║  ██║██████╔╝███████╗
-  ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝  CONSOLE  v0.1.0
+  ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝  TICKR  v0.1.0
 ```
 
 tickr is free and gives you the muscle-memory command grammar of a real terminal, dense richly-formatted output, and LLMs (such as Jev, OpenAI, or Anthropic) embedded in every screen — delivering the one non-obvious insight that raw numbers alone can't.

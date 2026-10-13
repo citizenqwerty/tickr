@@ -37,7 +37,7 @@ _BANNER = r"""
 def _print_banner() -> None:
     console.print(f"[accent]{_BANNER}[/accent]", highlight=False)
     console.print(
-        f"  [bold {t.accent}]CONSOLE[/bold {t.accent}]  "
+        f"  [bold {t.accent}]TICKR[/bold {t.accent}]  "
         f"[{t.muted}]v{__version__}[/]  "
         f"[{t.dim_text}]·  Bloomberg-style equity research terminal[/]\n"
     )
