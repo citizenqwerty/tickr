@@ -3,13 +3,13 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kadeconsole"
+name = "tickr"
 version = "0.1.0"
 description = "Bloomberg-terminal-style equity research console powered by yfinance and Jev AI"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
-authors = [{ name = "kadeConsole Contributors" }]
+authors = [{ name = "tickr Contributors" }]
 keywords = ["finance", "terminal", "equities", "bloomberg", "yfinance", "ai"]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -45,17 +45,17 @@ alpaca = ["alpaca-trade-api>=3.0.0"]
 alphavantage = ["alpha-vantage>=2.3.1"]
 
 [project.scripts]
-kadeconsole = "kadeconsole.cli:main"
+tickr = "tickr.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/zadescoxp/kadeconsole"
-Repository = "https://github.com/zadescoxp/kadeconsole"
-Issues = "https://github.com/zadescoxp/kadeconsole/issues"
-Changelog = "https://github.com/zadescoxp/kadeconsole/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/citizenqwerty/tickr"
+Repository = "https://github.com/citizenqwerty/tickr"
+Issues = "https://github.com/citizenqwerty/tickr/issues"
+Changelog = "https://github.com/citizenqwerty/tickr/blob/main/CHANGELOG.md"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["kadeconsole*"]
+include = ["tickr*"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"

@@ -3,7 +3,7 @@ tests/test_tables.py — Unit tests for number formatters in render/tables.py
 """
 
 import pytest
-from kadeconsole.render.tables import fmt_number, fmt_pct, fmt_ratio, fmt_price, fmt_delta_str
+from tickr.render.tables import fmt_number, fmt_pct, fmt_ratio, fmt_price, fmt_delta_str
 
 
 class TestFmtNumber:

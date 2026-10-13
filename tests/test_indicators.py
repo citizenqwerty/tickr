@@ -3,10 +3,10 @@ tests/test_indicators.py — Unit tests for indicator math.
 """
 
 import pytest
-from kadeconsole.indicators.moving_averages import sma, ema, golden_cross
-from kadeconsole.indicators.momentum import rsi, rsi_signal, macd, rate_of_change
-from kadeconsole.indicators.volatility import bollinger_bands, realized_volatility
-from kadeconsole.indicators.volume import obv, volume_ratio, detect_volume_spike
+from tickr.indicators.moving_averages import sma, ema, golden_cross
+from tickr.indicators.momentum import rsi, rsi_signal, macd, rate_of_change
+from tickr.indicators.volatility import bollinger_bands, realized_volatility
+from tickr.indicators.volume import obv, volume_ratio, detect_volume_spike
 
 
 # ── SMA ───────────────────────────────────────────────────────────────────────

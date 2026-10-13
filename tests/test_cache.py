@@ -7,7 +7,7 @@ import pytest
 import tempfile
 from pathlib import Path
 
-from kadeconsole.cache.store import CacheStore
+from tickr.cache.store import CacheStore
 
 
 @pytest.fixture

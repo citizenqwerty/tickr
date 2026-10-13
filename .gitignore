@@ -32,7 +32,7 @@ ENV/
 htmlcov/
 .tox/
 
-# kadeConsole specific
+# tickr specific
 *.db
 *.sqlite
 *.sqlite3

@@ -1,8 +1,8 @@
-# kadeConsole
+# tickr
 
 > An equity research console (like a Bloomberg terminal) — free, open-source, and AI-powered.
 
-![kadeConsole Demo](assets/demo.gif)
+![tickr Demo](assets/demo.gif)
 
 ```
   ██╗  ██╗ █████╗ ██████╗ ███████╗
@@ -13,20 +13,20 @@
   ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝  CONSOLE  v0.1.0
 ```
 
-kadeConsole is free and gives you the muscle-memory command grammar of a real terminal, dense richly-formatted output, and LLMs (such as Jev, OpenAI, or Anthropic) embedded in every screen — delivering the one non-obvious insight that raw numbers alone can't.
+tickr is free and gives you the muscle-memory command grammar of a real terminal, dense richly-formatted output, and LLMs (such as Jev, OpenAI, or Anthropic) embedded in every screen — delivering the one non-obvious insight that raw numbers alone can't.
 
 ---
 
 ## Install
 
 ```bash
-pip install kadeconsole
+pip install tickr
 ```
 
 Then launch the REPL:
 
 ```bash
-kadeconsole
+tickr
 ```
 
 ---
@@ -34,23 +34,23 @@ kadeconsole
 ## Quickstart
 
 ```
-kadeConsole > AAPL EQUITY          # resolve Apple, set session
-kadeConsole > DES                  # company description
-kadeConsole > FA                   # full fundamentals
-kadeConsole > FA Q                 # quarterly fundamentals
-kadeConsole > GP                   # 1Y price chart
-kadeConsole > GP 6M                # 6-month chart
-kadeConsole > HP                   # historical OHLCV
-kadeConsole > VERDICT              # AI buy/sell/hold distribution
-kadeConsole > RATE                 # AI multi-axis fundamental rating
-kadeConsole > HELP                 # full command reference
-kadeConsole > EXIT                 # quit
+tickr > AAPL EQUITY          # resolve Apple, set session
+tickr > DES                  # company description
+tickr > FA                   # full fundamentals
+tickr > FA Q                 # quarterly fundamentals
+tickr > GP                   # 1Y price chart
+tickr > GP 6M                # 6-month chart
+tickr > HP                   # historical OHLCV
+tickr > VERDICT              # AI buy/sell/hold distribution
+tickr > RATE                 # AI multi-axis fundamental rating
+tickr > HELP                 # full command reference
+tickr > EXIT                 # quit
 ```
 
 **Indian markets:**
 ```
-kadeConsole > RELIANCE IN NS EQUITY    # Reliance Industries on NSE
-kadeConsole > INFY BO EQUITY           # Infosys on BSE
+tickr > RELIANCE IN NS EQUITY    # Reliance Industries on NSE
+tickr > INFY BO EQUITY           # Infosys on BSE
 ```
 
 ---
@@ -75,7 +75,7 @@ kadeConsole > INFY BO EQUITY           # Infosys on BSE
 
 ## Configuration
 
-On first run, kadeConsole creates `~/.kadeconsole/config.yaml`:
+On first run, tickr creates `~/.tickr/config.yaml`:
 
 ```yaml
 provider_priority:
@@ -102,7 +102,7 @@ The `providers/base.py` `DataProvider` interface is public. To add a new source:
 
 1. Subclass `DataProvider`
 2. Implement `get_info()`, `get_price_history()`, `get_financials()`, `get_news()`, `get_peers()`
-3. Register in `~/.kadeconsole/config.yaml` under `provider_priority`
+3. Register in `~/.tickr/config.yaml` under `provider_priority`
 
 ---
 

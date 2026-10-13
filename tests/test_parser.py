@@ -3,7 +3,7 @@ tests/test_parser.py — Unit tests for the command parser.
 """
 
 import pytest
-from kadeconsole.core.parser import (
+from tickr.core.parser import (
     parse, ParseError,
     CMD_EQUITY, CMD_DES, CMD_FA, CMD_GP, CMD_HP,
     CMD_VERDICT, CMD_RATE, CMD_HELP, CMD_EXIT, CMD_UNKNOWN,
